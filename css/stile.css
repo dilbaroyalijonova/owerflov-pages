@@ -1,0 +1,15 @@
+p {
+  width: 400px;
+  background-color: aqua;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mask1 {
+  mask-image: url(../image/tok.png.crdownload);
+  mask-repeat: no-repeat;
+}
