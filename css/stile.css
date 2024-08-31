@@ -134,3 +134,25 @@ body {
 .box5 {
   background-color: rgba(61, 69, 255, 1);
 }
+
+.vazifa h2 {
+  width: 400px;
+  background-color: blueviolet;
+  display: -webkit-box;
+  --webkit-box-orient: vertical;
+  --webkit-line-clamp: 5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.vazifa p {
+  width: 400px;
+  background-color: aqua;
+  display: -webkit-box;
+  --webkit-box-orient: vertical;
+  --webkit-line-clamp: 5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
