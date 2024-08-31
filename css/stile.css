@@ -156,3 +156,84 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.wrapper2 {
+  padding: 50px;
+}
+
+#check,
+#check1 {
+  appearance: none;
+  width: 80px;
+  height: 40px;
+  background-color: grey;
+  border-radius: 20px;
+  position: relative;
+  transition: all0, 0.3s;
+}
+
+#check:checked {
+  background-color: blue;
+}
+
+#check::before {
+  content: "";
+  width: 36px;
+  height: 36px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: all 0.3s;
+}
+
+#check:checked::before {
+  left: 41px;
+}
+
+#check1 {
+  border-radius: 3px;
+}
+
+#check1:checked {
+  background-color: aqua;
+}
+
+#check1::before {
+  content: "";
+  width: 36px;
+  height: 36px;
+  border-radius: 2px;
+  background-color: antiquewhite;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: all 0.5s;
+}
+
+#check1:checked::before {
+  left: 41px;
+}
+
+.masking {
+  margin-bottom: 50px;
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);
+}
+
+.mask1 {
+  margin-bottom: 50px;
+  max-width: 400px;
+  height: 200px;
+  overflow-y: scroll;
+  background: url(../image/openall.jpg) no-repeat;
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);
+}
+
+.mask2 {
+  --webkit-mask-image: url(../image/Sinusvåg_400px.png);
+  mask-image: url(../image/Sinusvåg_400px.png);
+  mask-repeat: no-repeat;
+}
