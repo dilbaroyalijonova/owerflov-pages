@@ -1,151 +1,136 @@
+@import url(../normolize/);
 @font-face {
-    font-display: swap;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    src: url("../fonts/poppins-v21-latin-regular.woff2") format("woff2");
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v21-latin-regular.woff2") format("woff2");
 }
 
 @font-face {
-    font-display: swap;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
-    src: url("../fonts/poppins-v21-latin-700.woff2") format("woff2");
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v21-latin-700.woff2") format("woff2");
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .wrapper {
-    position: relative;
-    max-width: 1240px;
-    max-height: 1024px;
-    background-color: rgba(4, 62, 73, 1);
+  position: relative;
+  max-width: 1240px;
+  max-height: 1024px;
+  background-color: rgba(4, 62, 73, 1);
 }
 
 .box {
-    border-radius: 24px;
-    position: absolute;
-    left: 10%;
-    top: 10%;
-    z-index: 2;
-    width: 919px;
-    height: 526px;
-    background-color: rgba(0, 0, 0, 0.36);
+  border-radius: 24px;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  z-index: 2;
+  width: 919px;
+  height: 526px;
+  background-color: rgba(0, 0, 0, 0.36);
 }
 
 .box h1 {
-    padding: 40px 0 5px 56px;
-    width: 748px;
-    color: rgba(255, 255, 255, 1);
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 96px;
+  padding: 40px 0 5px 56px;
+  width: 748px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 96px;
 }
 
 .box strong {
-    color: rgba(99, 225, 225, 1);
+  color: rgba(99, 225, 225, 1);
 }
 
 .box p {
-    width: 586px;
-    color: rgba(255, 255, 255, 1);
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 36px;
-    padding-left: 56px;
+  width: 586px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 36px;
+  padding-left: 56px;
 }
 
 .box button {
-    background-color: rgba(99, 225, 225, 1);
-    border-radius: 36px;
-    padding: 24px 48px;
-    margin: 56px;
-    font-size: 24px;
-    line-height: 18px;
+  background-color: rgba(99, 225, 225, 1);
+  border-radius: 36px;
+  padding: 24px 48px;
+  margin: 56px;
+  font-size: 24px;
+  line-height: 18px;
 }
 
 .wrapper img {
-    position: absolute;
-    left: 50%;
-    position: relative;
+  position: absolute;
+  left: 50%;
+  position: relative;
 }
 
 .wrapper .footer {
-    position: absolute;
-    bottom: 5%;
-    left: 10%;
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
 }
 
 .footer {
-    z-index: 1;
-    width: 1312px;
-    height: 171px;
-    border: 1px solid whitesmoke;
-    display: flex;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 32px;
+  z-index: 1;
+  width: 1312px;
+  height: 171px;
+  border: 1px solid whitesmoke;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.36);
+  border-radius: 32px;
 }
 
 .footer__box1 p {
-    width: 231px;
-    font-size: 18px;
-    line-height: 26px;
-    padding-top: 8px;
+  width: 231px;
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 8px;
 }
 
 .footer__box1 {
-    padding: 24px 56px 24px 56px;
-    color: rgba(255, 255, 255, 1);
+  padding: 24px 56px 24px 56px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .color-box1 {
-    display: flex;
-    width: 10px;
-    height: 10px;
+  display: flex;
+  width: 10px;
+  height: 10px;
 }
 
 .box1 {
-    background-color: rgba(255, 255, 103, 1);
+  background-color: rgba(255, 255, 103, 1);
 }
 
 .box2 {
-    background-color: rgba(63, 255, 255, 1);
+  background-color: rgba(63, 255, 255, 1);
 }
 
 .box3 {
-    background-color: rgba(82, 220, 75, 1);
+  background-color: rgba(82, 220, 75, 1);
 }
 
 .box4 {
-    background-color: rgba(255, 110, 61, 1);
+  background-color: rgba(255, 110, 61, 1);
 }
 
 .box5 {
-    background-color: rgba(61, 69, 255, 1);
-}
-
-.vazifa p {
-    width: 400px;
-    background-color: aqua;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 5;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.mask1 {
-    mask-image: url(../image/tok.png.crdownload);
-    mask-repeat: no-repeat;
+  background-color: rgba(61, 69, 255, 1);
 }
